@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+header, footer, div, section {
+	box-sizing: border-box;
+}
+
+header {
+	margin-top: 48px;
+}
+
+.logo {
+	border-radius: 50%;
+}
+
+.author {
+	float: right;
+	font-family: "Catamaran";
+}
+
+.hero-name {
+	font-size: 50px;
+	float: right;
+}
+
+.hero-title {
+	clear: right;
+	font-size: 24px;
+	float: right;
+}
+
+hr {
+	border-width: 5px;
+	border-color: #7d97ad;
+	width: 100%;
+}
+
+.theme,
+#featured-work {
+	margin: 30px 0;
+}
+
+h2 {
+	color: #7d97ad;
+	font-size: 40px;
+}
+
+.hp-series {
+	margin: 20px auto;
+	width: auto;
+}
+
+figcaption {
+	text-align: center;
+	font-size: 24px;
+	color: #2d3c49;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+}
+
+a {
+	font-size: 18px;
+	display: block;
+	text-align: center;
+	color: #2d3c49;
+	font-family: "Open Sans", sans-serif;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.hero-name {
+		font-size: 36px;
+	}
+
+	.hero-title {
+		font-size: 18px;
+	}
+
+	.author {
+		margin-top: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 369px) {
+	.hero-name {
+		font-size: 24px;
+	}
+
+	.hero-title {
+		font-size: 14px;
+	}
+	
+	.logo {
+		width: 100px;
+		height: 100px;
+	}
+
+}
